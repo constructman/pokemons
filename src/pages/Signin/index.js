@@ -6,18 +6,19 @@ const Signin = () => (
       <form className="form">
         <div className="logo"></div>
         <input 
-        type="email" 
-        className="input first" 
-        placeholder="Email" 
+          type="email" 
+          className="input first" 
+          placeholder="Email" 
         />
         <input 
-        type="password" 
-        className="input" 
-        placeholder="Password" 
+          type="password" 
+          className="input" 
+          placeholder="Password" 
         />
         <button 
-        type="submit" 
-        className="submit">
+          type="submit" 
+          className="submit"
+        >
           Sign In
         </button>
       </form>
